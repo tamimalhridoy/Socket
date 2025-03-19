@@ -14,7 +14,7 @@ const App = () => {
     socket.on("res_server", (data) => console.log(data));
   }, []);
 
-  const hendel = () => {
+  const hendeal = () => {
     console.log(message);
     socket.emit("message-Clint", {
       message,
